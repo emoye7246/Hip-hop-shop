@@ -1,0 +1,96 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #E5E7EB;
+}
+/* This is the start of the header */
+img {
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-links {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-links li {
+    /* display inline-block allows you to remove link stacking */
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.logo {
+    cursor: pointer;
+    display: flex;
+    margin-right: auto;
+}
+
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+    color: black;
+}
+
+
+.nav-links li a:hover {
+    color: red;
+}
+
+button {
+    background-color: white;
+    color: black;
+    padding: 9px 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    color: red;
+}
+/* This concludes the first half of the header */
+
+/* THis is the second half of the header */
+
+.subtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.subtext button {
+    border: 1px solid black;
+    border-radius: 25px;
+    padding: 5px 16px;
+    background-color: white;
+    margin-right: auto;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+
+}
+
+.subtext button:hover {
+    color: red;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 20px 6%;
+}
+/* This concludes the second half of the header */
