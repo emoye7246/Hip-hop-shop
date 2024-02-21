@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #E5E7EB;
+    /* background-color: #E5E7EB; */
 }
 /* This is the start of the header */
 img {
@@ -15,6 +15,7 @@ header {
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
+    background-color: rgb(180, 180, 184);
 }
 
 .nav-links {
@@ -70,6 +71,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    background-color: rgb(180, 180, 184);
 }
 
 .subtext button {
@@ -87,10 +89,128 @@ button:hover {
     color: red;
 }
 
+.one h2 {
+    font-size: 50px;
+}
+
 .one {
     display: flex;
     flex-direction: column;
     row-gap: 30px;
     padding: 20px 6%;
 }
+
+.seperate img {
+    /* border: none; */
+}
 /* This concludes the second half of the header */
+
+/* This is the start of the second half of the page  */
+.half {
+    background-color: rgb(199, 200, 204);
+}
+
+/* This controls the positon of the cards */
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 90px 30%;
+    padding-bottom: 0;
+    padding-top: 0;
+    
+}
+/* This includes the some random information section of the second half */
+.text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/* controls all cards information along with the text beneath it  */
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.cards img {
+    border: 1px solid black;
+    border-radius: 25px;
+}
+/* This concludes the second half of the page */
+
+/* This the start of the the 75% of the webpage  */
+.quart {
+    background-color: rgb(227, 225, 217);
+    padding: 30px 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+    padding-bottom: 0;
+    font-size: 30px;
+}
+.source {
+    display: flex;
+    margin-left: auto;
+    padding: 30px 10%;
+    
+}
+/* This concludes the 75% part of the webpage */
+
+/* This is the start of the finshed ascpect of the webpage */
+.call {
+    background-color: rgb(242, 239, 229);
+    display: flex;
+    flex-direction: column;
+    padding: 30px 10%;
+}
+
+.left {
+    border-radius: 25px;
+    display: flex;
+    padding: 30px 10%;
+    background-color: wheat;
+    color: rgb(111, 110, 110);
+}
+
+.left .help {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+
+}
+
+.bold {
+    font-size: large;
+    font-weight: bold;
+}
+
+.diff button:hover {
+    color: red;
+}
+/* This concludes the finsihed part if the webpage  */
+
+.footer {
+    background-color: rgb(180, 180, 184);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10%;
+}
